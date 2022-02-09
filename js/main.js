@@ -19,7 +19,7 @@ $(document).ready(function() {
   }); 
 }); 
 
-// All Clear 
+ 
 $("#allClear").click(function() { 
   $("#expression").val("0"); 
   $("#result").val("0"); 
