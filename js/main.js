@@ -9,7 +9,7 @@ $(document).ready(function() {
       } 
   }); 
 
-  //Backspace 
+
   $('#backspace').click(function() { 
       var value = $("#expression").val(); 
       if (!(parseInt(parseFloat(value)) == 0 && value.length == 1)) 
